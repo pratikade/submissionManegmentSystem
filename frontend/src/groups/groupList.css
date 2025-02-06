@@ -1,0 +1,88 @@
+
+.groups{
+    width: 50%;
+}
+.table{
+    background-color: white;
+
+}
+.table th,
+.table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.table thead {
+    background-color: #000000;
+    color: white;
+    font-size: larger;
+    font-weight: 100;
+    border: 5px;
+    height: 60px;
+
+}
+
+
+
+.table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* main css code for making both group and view group overlape */
+
+.mainBox{
+    position: relative;
+} 
+
+.group{
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    position: relative;
+}
+
+.viewMember{
+    position: absolute;
+    z-index: 10;
+    top: 5%; 
+    left: 95%;
+    right: 5%;  
+    /* transform: translate(0%, 0%);   */
+    width: 350px; 
+    height: 500px; 
+    margin-left: 100px;
+
+} 
+
+.table-2 tr{
+    background-color: rgb(135, 50, 50);
+}
+
+.viewMember_min{
+    background-color: rgb(255, 255, 255);
+}
+
+.btn_add-1{
+    padding: 5px;
+    width: 85%;
+    height: 50px;
+    background-color: rgba(47, 114, 47, 0.731);
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+}
+
+.groupContener{
+    display: inline-block;
+}
